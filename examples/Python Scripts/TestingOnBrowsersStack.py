@@ -4,8 +4,14 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-#Test Description: This test
-#These are my credentials if you want to try it
+"""
+Test Description:
+ Going to the "login screen" then to the "WebView Demo" screen 
+ and changing the context there from native to webview if possible.
+"""
+
+
+#Put your browserstack credentials here
 userName = "#"
 accessKey = "#"
 
