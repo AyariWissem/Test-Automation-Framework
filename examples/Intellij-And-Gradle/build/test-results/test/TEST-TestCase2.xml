@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCase2" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-10T05:04:23" hostname="X" time="18.253">
+  <properties/>
+  <testcase name="testCase" classname="TestCase2" time="18.253">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.optanon\-allow\-all\ accept\-cookies\-button&quot;}&#10;  (Session info: chrome=81.0.4044.138)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'X', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\X\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 1228fb0d67529724f2c7b30979cf6e0a&#10;*** Element info: {Using=class name, value=optanon-allow-all accept-cookies-button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.optanon\-allow\-all\ accept\-cookies\-button&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'X', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\X\AppData\Local\Te...}, goog:chromeOptions: {debuggerAddress: localhost:3745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 1228fb0d67529724f2c7b30979cf6e0a
+*** Element info: {Using=class name, value=optanon-allow-all accept-cookies-button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestCase2.testCase(TestCase2.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 3178
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 10, 2020 6:04:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589087070.467][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087070.568][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087070.670][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087070.772][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087070.874][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087070.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.078][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.180][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.383][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.484][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.586][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.688][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.789][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.891][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087071.993][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.197][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.400][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.596][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.697][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087072.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087076.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087076.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087076.883][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087076.985][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.188][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.494][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.596][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087077.901][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.002][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.206][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.409][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.511][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.714][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087078.917][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.120][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.221][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.322][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.424][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.526][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.627][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.729][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087079.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087081.666][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087081.768][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087081.870][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087081.972][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087082.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589087082.175][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>
