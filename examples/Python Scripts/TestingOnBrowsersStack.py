@@ -35,7 +35,8 @@ def iOS(desired_cap):
     desired_cap['app'] = 'bs://40b157b3a53610e21aedb6f41b39adb7fa506180'
     # desired_cap['browserName'] = 'Safari'
 
-class TestGmailTest():
+#the app that will be used can be found at: https://github.com/cloudgrey-io/the-app/releases
+class TestingTheApp():
     def setup_method(self, method):
         # iOS(desired_cap)
         Android(desired_cap)
