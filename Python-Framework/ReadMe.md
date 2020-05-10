@@ -25,13 +25,13 @@ Step 2: installing the packages/libraries through the CLI of your OS
 ***  Dealing with proxies:  ***
  >using the Package Installer for Python (pip):
 	Simply add the proxy argument to each command :
-        --proxy http://web-proxy.mydomain.com
- Example: pip install --proxy http://user:password@proxyserver:port LibraryName
+        "--proxy http://web-proxy.mydomain.com"
+ Example: "pip install --proxy http://user:password@proxyserver:port LibraryName"
  
  >using the Node Package Manager (npm):
 	You should run these two commands on the CLI : 
-         npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>
-         npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>
+         "npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>"
+         "npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>"
  
 ----------------------------------------------------------
 When creating scripts in a new project:
