@@ -12,6 +12,7 @@ class API:
     def find_element(driver, by):
         """Looks up an element. Logs and re-raises ``WebDriverException``
         if thrown."""
+
         try:
             return driver.find_element(*by)
         except NoSuchElementException as e:

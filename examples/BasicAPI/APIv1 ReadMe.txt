@@ -1,29 +1,23 @@
-Set up:
-=======
+Setup instructions:
+===================
 there are many ways to use this script, using pycharm:
 create a new folder in your pycharm project
-right click on it > Mark Directory As > source root
+right click on the folder> Mark Directory As > Sources Root
 
-Usage Example:
-==============
-
-#From the same project create a new python script and paste the code below
-
+Usage in your test script:
+=========================
+# The module import
 from apiV1 import API
 
-caps = {
-    "platformName": "Android",
-    "platformVersion": "9",
-    "deviceName": "Pixel3",
-    "automationName": "UiAutomator2",
-    "app": r"C:\Users\X\Desktop\MyPFE\Framework Using Python\Drivers&Apps\ApiDemos-debug.apk",
-    "newCommandTimeout": 6000
-}
 
-driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", caps)
-driver.find_element(MobileBy.ACCESSIBILITY_ID, "Accessibility").click()
-driver.find_element(MobileBy.ACCESSIBILITY_ID, "Accessibility Node Querying").click()
+#Instantiation using your webdriver object that should already be created
 api = API(driver)
+
+# Api method usage
+# api.activateChoice(locator, Location)
+# locator = By.ID, By.CSS_SELECTOR, MobileBy.XPATH .....
+# location = xpath,..
+# Example:
 api.activateChoice(MobileBy.XPATH,
    "//android.widget.TextView[@text='Take out Trash']/following-sibling::android.widget.CheckBox")
 
