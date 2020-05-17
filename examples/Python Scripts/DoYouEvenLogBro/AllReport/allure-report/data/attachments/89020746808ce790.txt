@@ -1,0 +1,1 @@
+INFO     root:logging2.py:33 Inside Test 2

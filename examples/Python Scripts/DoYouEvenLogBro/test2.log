@@ -1,0 +1,10 @@
+INFO:root:Inside Setup
+INFO:root: Hurray !!
+INFO:root:Inside Test 1
+INFO:root:Inside Test 2
+WARNING:root:O, O, an Oopsie
+INFO:root:Inside Setup
+INFO:root: Hurray !!
+INFO:root:Inside Test 1
+INFO:root:Inside Test 2
+WARNING:root:O, O, an Oopsie

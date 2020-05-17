@@ -1,0 +1,3 @@
+INFO     root:logging2.py:11 Inside Setup
+INFO     root:logging2.py:23  Hurray !!
+INFO     root:logging2.py:27 Inside Test 1

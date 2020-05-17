@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sun May 17 03:55:45 GMT+01:00 2020","Sun May 17 03:55:45 GMT+01:00 2020","1","","logging2","","","","test_three",""
+"passed","Sun May 17 03:55:45 GMT+01:00 2020","Sun May 17 03:55:45 GMT+01:00 2020","1","","logging2","","","","test_one"," Test One "
+"passed","Sun May 17 03:55:45 GMT+01:00 2020","Sun May 17 03:55:45 GMT+01:00 2020","0","","logging2","","","","test_two"," Test Two "
